@@ -1,1 +1,0 @@
-terracemix kart takip 
