@@ -1,2 +1,0 @@
-# Karttakip
-Site giriş kartları 

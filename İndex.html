@@ -1,0 +1,39 @@
+# Karttakip
+Site giriş kartları 
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TerraceMixKart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>TerraceMixKart</h1>
+
+    <div id="login">
+      <input id="user" placeholder="Kullanıcı Adı">
+      <input id="pass" type="password" placeholder="Şifre">
+      <button onclick="login()">Giriş</button>
+    </div>
+
+    <div id="panel" style="display:none;">
+      <div class="card">
+        <h2>MOBA 1</h2>
+        <p>🟢 Yerinde: <span id="in1">30</span></p>
+        <p>🔴 Dışarıda: <span id="out1">0</span></p>
+      </div>
+
+      <button onclick="ver()">Kart Ver</button>
+      <button onclick="al()">Kart Al</button>
+
+      <p id="log"></p>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
